@@ -2,7 +2,7 @@ import unittest
 from numerical_systems.conversion.Binary import Binary
 
 
-class MyTestCase(unittest.TestCase):
+class TestBinary(unittest.TestCase):
     def test_is_binary_valid(self):
         self.assertTrue(Binary.is_binary('101010'))
         self.assertTrue(Binary.is_binary('1111'))
