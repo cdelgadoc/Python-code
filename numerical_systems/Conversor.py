@@ -104,7 +104,7 @@ class Conversor:
         return int(octal, 8)
 
     @staticmethod
-    def to_decimal_builtin(hexadecimal: str) -> int:
+    def hexadecimal_to_decimal(hexadecimal: str) -> int:
         """
         Converts a hexadecimal number into a decimal number.
         """

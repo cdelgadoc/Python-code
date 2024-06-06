@@ -51,10 +51,10 @@ class ConversorTest(unittest.TestCase):
         self.assertEqual(Conversor.octal_to_decimal("15"), 13)
         self.assertEqual(Conversor.octal_to_decimal("0"), 0)
 
-    def test_to_decimal_builtin(self):
-        self.assertEqual(Conversor.to_decimal_builtin("A"), 10)
-        self.assertEqual(Conversor.to_decimal_builtin("D"), 13)
-        self.assertEqual(Conversor.to_decimal_builtin("0"), 0)
+    def test_hexadecimal_to_decimal(self):
+        self.assertEqual(Conversor.hexadecimal_to_decimal("A"), 10)
+        self.assertEqual(Conversor.hexadecimal_to_decimal("D"), 13)
+        self.assertEqual(Conversor.hexadecimal_to_decimal("0"), 0)
 
 
 if __name__ == '__main__':
